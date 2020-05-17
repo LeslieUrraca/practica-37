@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+  function abrir()
+  {
+    var ventana=open('','','width='+ screen.availWidth +',height='+screen.availHeight/2);
+  }
+</script>
+
+<form>
+  <input type="button" value="Presione aqui para saber el alto y ancho de su pantalla" onClick="abrir()">
+</form>
+</body>
+</html>
